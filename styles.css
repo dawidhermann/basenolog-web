@@ -17,19 +17,19 @@ header > img {
 
 @media (max-width: 1200px) {
     header > img {
-        max-width: 40%;
+        max-width: 50%;
     }
 }
 
 @media (max-width: 768px) {
     header > img {
-        max-width: 50%;
+        max-width: 80%;
     }
 }
 
 @media (max-width: 480px) {
     header > img {
-        max-width: 60%;
+        max-width: 100%;
     }
 }
 
@@ -80,6 +80,7 @@ main > section {
 
 main > section > p, ul {
     font-size: x-large;
+    text-align: justify;
 }
 
 main > section > h1 {
