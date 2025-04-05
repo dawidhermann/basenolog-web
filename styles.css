@@ -64,6 +64,7 @@ main > section {
     background-color: rgba(255, 255, 255, 0.95);
     align-self: center;
     margin-bottom: 100px;
+    min-width: 20%;
 }
 
 main > section > p, ul {
@@ -118,8 +119,25 @@ main > section#contact > p {
     header > img {
         max-width: 50%;
     }
+    main > section {
+        min-width: 40%;
+    }
+    main > section > p, ul {
+        font-size: 1.5rem;
+    }
+
+    main > section > h1 {
+        font-size: 2rem;
+    }
+
+    main > section > h2 {
+        font-size: 1.8rem;
+    }
     main > section#about {
-        max-width: 100%;
+        max-width: 80%;
+    }
+    body {
+        background-position: top right -150px;
     }
 }
 
@@ -127,8 +145,25 @@ main > section#contact > p {
     header > img {
         max-width: 80%;
     }
+    main > section {
+        min-width: 50%;
+    }
+    main > section > p, ul {
+        font-size: 1.5rem;
+    }
+
+    main > section > h1 {
+        font-size: 2rem;
+    }
+
+    main > section > h2 {
+        font-size: 1.8rem;
+    }
     main > section#about {
-        max-width: 100%;
+        max-width: 80%;
+    }
+    body {
+        background-position: top right -150px;
     }
 }
 
@@ -136,7 +171,24 @@ main > section#contact > p {
     header > img {
         max-width: 100%;
     }
+    main > section {
+        min-width: 80%;
+    }
+    main > section > p, ul {
+        font-size: 1.2rem;
+    }
+
+    main > section > h1 {
+        font-size: 1.8rem;
+    }
+
+    main > section > h2 {
+        font-size: 1.5rem;
+    }
     main > section#about {
         max-width: 100%;
+    }
+    body {
+        background-position: top right -150px;
     }
 }
