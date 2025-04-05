@@ -15,24 +15,6 @@ header > img {
     max-width: 40%;
 }
 
-@media (max-width: 1200px) {
-    header > img {
-        max-width: 50%;
-    }
-}
-
-@media (max-width: 768px) {
-    header > img {
-        max-width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    header > img {
-        max-width: 100%;
-    }
-}
-
 nav {
     background-color: #333;
     padding: 10px;
@@ -123,4 +105,32 @@ main > section#contact {
 
 main > section#contact > p {
     text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+    header > img {
+        max-width: 50%;
+    }
+    main > section#about {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header > img {
+        max-width: 80%;
+    }
+    main > section#about {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header > img {
+        max-width: 100%;
+    }
+    main > section#about {
+        max-width: 100%;
+    }
 }
