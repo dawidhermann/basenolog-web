@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2886ba;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #509ac3;
+}
+
+header > img {
+    max-width: 40%;
+}
+
+@media (max-width: 1200px) {
+    header > img {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    header > img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    header > img {
+        max-width: 60%;
+    }
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-top: 10px solid rgba(255, 255, 255, 0.73);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("data:image/svg+xml,%3Csvg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath fill='%23026BB1' d='M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
+    height: 150px;
+    width: 100%;
+}
+
+footer > p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main > section {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.73);
+    align-self: center;
+    margin-bottom: 100px;
+}
+
+main > section > p, ul {
+    font-size: x-large;
+}
+
+main > section > h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+main > section > h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+main > section#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 60%;
+    /*align-self: flex-start;*/
+}
+
+main > section#offer > ul {
+    margin: 0;
+}
+
+main > section#offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 75%;
+    /*align-self: flex-end;*/
+}
+
+main > section#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 75%;
+    /*align-self: center;*/
+}
+
+main > section#contact > p {
+    text-align: center;
+}
