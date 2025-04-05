@@ -1,0 +1,58 @@
+# Główne ustawienia dla wszystkich robotów
+User-agent: *
+# Zezwól na indeksowanie głównej zawartości
+Allow: /
+
+# Blokowanie plików systemowych
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.txt$
+Disallow: /*.xml$
+Disallow: /*.yml$
+Disallow: /*.json$
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+
+# Blokowanie wersji drukowanych i podobnych
+Disallow: /print/
+Disallow: /pdf/
+Disallow: /*print=*
+Disallow: /*pdf=*
+
+# Blokowanie wersji testowych i deweloperskich
+Disallow: /test/
+Disallow: /demo/
+Disallow: /dev/
+Disallow: /development/
+Disallow: /staging/
+Disallow: /beta/
+
+# Specjalne ustawienia dla Googlebot
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+Crawl-delay: 1
+
+# Specjalne ustawienia dla Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /img/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Specjalne ustawienia dla Bing
+User-agent: Bingbot
+Crawl-delay: 2
+
+# Blokowanie botów archiwizujących
+User-agent: ia_archiver
+Disallow: /
+
+Host: https://basenolog.pl
