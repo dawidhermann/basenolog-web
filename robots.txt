@@ -55,4 +55,6 @@ Crawl-delay: 2
 User-agent: ia_archiver
 Disallow: /
 
+Sitemap: https://basenolog.pl/sitemap.xml
+
 Host: https://basenolog.pl
