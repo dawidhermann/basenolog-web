@@ -90,6 +90,7 @@ main > section > h1 {
 main > section > h2 {
     text-align: center;
     font-size: 2.2rem;
+    align-self: center;
 }
 
 main > section#about {
@@ -98,17 +99,25 @@ main > section#about {
     align-items: center;
     flex-direction: column;
     margin-top: 5%;
+    min-width: 60%;
 }
 
 main > section#offer > ul {
     margin: 0;
 }
 
+main > section#offer > h3 {
+    margin-top: 2em;
+    font-size: 1.7em;
+    align-self: center;
+}
+
 main > section#offer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    min-width: 60%;
 }
 
 main > section#contact {
@@ -129,11 +138,14 @@ main > section#contact > p {
     }
 
     main > section {
-        min-width: 40%;
+        min-width: 80% !important;
     }
-
     main > section > p, ul {
         font-size: 1.7rem;
+    }
+
+    main > section > ul {
+
     }
 
     main > section > h1 {
@@ -142,6 +154,10 @@ main > section#contact > p {
 
     main > section > h2 {
         font-size: 1.9rem;
+    }
+
+    main > section#offer > h3 {
+        font-size: 1.7rem;
     }
 
     main > section#about {
@@ -163,7 +179,7 @@ main > section#contact > p {
     }
 
     main > section {
-        width: 80%;
+        min-width: 80% !important;
         max-width: 80%;
     }
 
@@ -177,6 +193,9 @@ main > section#contact > p {
 
     main > section > h2 {
         font-size: 1.8rem;
+    }
+    main > section#offer > h3 {
+        font-size: 1.5rem;
     }
 
     body {
@@ -208,6 +227,9 @@ main > section#contact > p {
 
     main > section > h2 {
         font-size: 1.5rem;
+    }
+    main > section#offer > h3 {
+        font-size: 1.2rem;
     }
 
     body {
